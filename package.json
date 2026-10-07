@@ -1,0 +1,26 @@
+{
+  "name": "weather-web-app",
+  "version": "1.0.0",
+  "description": "Get information about the weather by choosing location on a map.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ficoBS/Weather-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ficoBS/Weather-Web-App/issues"
+  },
+  "homepage": "https://github.com/ficoBS/Weather-Web-App#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
